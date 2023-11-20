@@ -1,0 +1,33 @@
+LISTA DE IMPLEMENTAÇÕES A SEREM FEITAS
+
+[x] Criar tabela de usuario no banco de dados
+[x] Implementar o crud - falta criar o cadastro de usuario
+[x] No site importante:: implementar mudança de Menu quando acessar o sistema -- moduficar para localstorage
+[x] Configurar o layout flex e o Use Context corretamente
+[x] Corrigir as chamas  os redirecionamentos de todas as paginas incluindo o reload das paginas de formularios
+[x] Incluir paginaçao na pagina listagem de fornecedores, Clientes e contas a receber
+[x] Montar os modelos de classe, logico e conceitual
+[x] Montar a apresentação
+[x] Corrigir as rotas do sistema-sgme - OBSERVAÇÃO:
+[ ] Fazer deploy da aplicaçao
+[x] Validar campo email como unico na tabela e usuarios
+[ ] Subir pro gitHUb
+[x] Desenvolver a pagina de planos
+
+
+
+[ ] Implementar tratativas de erros no back end
+[ ] Ao editar um cpf ou um fornecedor veirificar se ja nao existe o mesmo no cadastro
+[ ] Colocar um button de simulação de fechar? para as paginas
+[ ] Mudar a apresentação dos dados individuais, mostrando individualmente com setas de
+navegações para os demais mostrar 01 registro por pagina
+[ ] Adicionar os campos padroes dos cadastros de clientes, fornecedores e afins
+[ ] Adiconar mascara para os campos padroes como cpf ou cnpj
+[ ] Padroniza declaraçoes das constantes nos useState
+[ ] Proteger as rotas e Usar e implementar o Spring Security
+[ ] Adiconar as opções de inativar fornecedor e Cliente
+[ ] Caso feche o navegador e o usuario fique logado ao abri a aplicação redirecionar para a pagina de
+Dashboard do sistema
+[ ] Estudar como ficaria quando um novo usuario se cadastrar e gerar um novo ** Banco de dados para que possa
+inserir as proprias informações
+
