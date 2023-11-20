@@ -4,7 +4,7 @@ import Image from "next/image";
 import {useForm} from "react-hook-form";
 import axios from "axios";
 import {http} from "@/utils/http";
-import {router} from "next/client";
+import {router} from "next/router";
 import Link from "next/link";
 
 function Index(props) {
@@ -23,7 +23,7 @@ function Index(props) {
     const onSubmit =async (data) => {
 
         try {
-            const response =   await http.post("/usuarios", data)
+            const response = await http.post("/usuarios", data)
                 .then((response) => {
                     setStatus(true)
                     reset()
