@@ -23,7 +23,7 @@ function Cadastro() {
     /*CHAMADA DA API PARA LISTA DE CLIENTES*/
     const [fornecedores, setFornecedores] = useState([]);
     useEffect(() => {
-        axios.get(`${url}/fornecedoresLista`)
+        http.get(`${url}/fornecedoresLista`)
             .then((response) => {
                 setFornecedores(response.data)
             })

@@ -44,7 +44,7 @@ function Index(props) {
 
 
                         <div>
-                            <Image src="/img/icone_banner_home.svg" width={400} height={400} alt=""/>
+                            <Image src="/img/icone_banner_home.svg" width={350  } height={400} alt=""/>
                         </div>
 
 
