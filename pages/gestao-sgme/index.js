@@ -123,7 +123,7 @@ export default function Home() {
                         <CardImagemButton
                             link="/gestao-sgme/financeiro/contas-a-receber/cadastro"
                             img="/img/icone_venda.svg"
-                            titleLink="Nova Despesa"/>
+                            titleLink="Nova Receita"/>
 
                     </div>
 
